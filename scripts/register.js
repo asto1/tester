@@ -5,7 +5,7 @@ document.getElementById('admissionForm').addEventListener('submit', async functi
     const formData = new FormData(form);
 
     // Ganti URL berikut dengan endpoint Google Apps Script Web Apps Anda
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyekImqyWGH1JeHhCtV24UmEWf1erZ7IxVf-3Mf8vzQT9XultvdG8y2rGqcDjDihZLQ0g/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxlnK76SLGsyMlyIK8n9xMTwuh3pe5EnmzSv-aW27A76WrFEkRb7qT5CC9mS2XjlGMj/exec';
 
     // Tampilkan loading (opsional)
     const submitBtn = form.querySelector('.btn-submit');
